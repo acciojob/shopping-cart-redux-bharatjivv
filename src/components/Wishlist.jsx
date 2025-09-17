@@ -9,7 +9,7 @@ class Wishlist extends Component {
         return (
             <div className="container mt-5">
                 <h3>Wishlists</h3>
-                <p className="text-muted">All Your Favorite Products</p>
+                <p className="text-muted">All Favorite Products</p>
                 <div className="row mt-3">
                     {
                         wishlists.length > 0 ? wishlists.map(wishlist => (
